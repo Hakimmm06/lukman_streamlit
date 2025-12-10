@@ -1,8 +1,8 @@
 import joblib
 import streamlit as st
 
-model = joblib.load(r"Model\model_logistic_regression.pkl")
-tfidf = joblib.load(r"Model\tfidf_vectorizer.pkl")
+model = joblib.load("Model/model_logistic_regression.pkl")
+tfidf = joblib.load("Model/tfidf_vectorizer.pkl")
 
 st.title("Aplikasi Klasifikasi Komentar Publik")
 st.write("Selamat datang di aplikasi klasifikasi komentar publik menggunakan model Logistic Regression! Aplikasi ini dibuat menggunakan Teknologi NLP dengan memanfaatkan model machine learning logistic regression ")
